@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Enzo Wetzel | Portfolio de estudiante y aspirante a UX/UI Designer Junior</title>
+<meta name="description" content="Portfolio de Enzo Sebastián Wetzel, estudiante de Sistemas de Información (UADER FCyT) que diseña y maqueta interfaces claras y accesibles.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Enzo Wetzel | Portfolio UX/UI">
+<meta property="og:description" content="Proyectos, habilidades y formación de Enzo Wetzel, aspirante a UX/UI Designer Junior.">
+<meta property="og:image" content="https://enzowetzel33.github.io/portfolio-web/img/og.png">
+<meta name="theme-color" content="#1D4ED8">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231D4ED8'/%3E%3Ctext x='16' y='22' font-size='16' font-family='Arial' font-weight='700' text-anchor='middle' fill='white'%3EEW%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Manrope:wght@600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Saltar al contenido</a>
+
+<header class="header">
+  <div class="wrap bar">
+    <a class="logo" href="#inicio" aria-label="Enzo Wetzel, inicio">EW</a>
+    <button class="burger" id="burger" aria-expanded="false" aria-controls="menu" aria-label="Abrir menú"><span></span></button>
+    <nav id="menu" class="menu" aria-label="Principal">
+      <a href="#skills">Skills</a>
+      <a href="#projects">Proyectos</a>
+      <a href="#experience">Formación</a>
+      <a href="#about">Sobre mí</a>
+      <a href="https://github.com/EnzoWetzel33" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a class="btn btn-primary" href="#contact">Contacto</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section id="inicio" class="hero"><div class="wrap">
+    <p class="badge">Disponible para pasantías y proyectos</p>
+    <h1>Enzo Sebastián Wetzel</h1>
+    <p class="role">Estudiante de Sistemas de Información y aspirante a UX/UI Designer Junior</p>
+    <p class="lead">Diseño interfaces ordenadas y las llevo a código con HTML y CSS, para que sean fáciles de usar desde cualquier pantalla.</p>
+    <div class="actions">
+      <a class="btn btn-primary" href="#projects">Ver trabajos</a>
+      <a class="btn btn-secondary" href="#contact">Contacto</a>
+    </div>
+    <p class="where">Concepción del Uruguay, Entre Ríos, Argentina (UTC−3)</p>
+  </div></section>
+
+  <section id="metrics" aria-label="Números destacados" class="wrap">
+    <ul class="metrics">
+      <li><strong>2023</strong><span>Ingreso a la carrera</span></li>
+      <li><strong>4</strong><span>Proyectos en GitHub</span></li>
+      <li><strong>20</strong><span>Ejercicios de HTML y CSS</span></li>
+      <li><strong>C1</strong><span>Nivel de inglés</span></li>
+    </ul>
+  </section>
+
+  <section id="skills" class="wrap">
+    <h2>Skills</h2>
+    <div class="grid">
+      <article class="card">
+        <h3>Diseño UX/UI</h3>
+        <p>Organizo la información, dibujo wireframes y defino un sistema de diseño simple.</p>
+        <ul class="tags"><li>Figma</li><li>Wireframes</li><li>Design system</li></ul>
+      </article>
+      <article class="card">
+        <h3>Front-end</h3>
+        <p>Maqueto páginas semánticas, responsive y accesibles, sin frameworks.</p>
+        <ul class="tags"><li>HTML5</li><li>CSS3</li><li>Tailwind</li><li>JavaScript</li></ul>
+      </article>
+      <article class="card">
+        <h3>Programación y herramientas</h3>
+        <p>Resuelvo problemas con algoritmos y estructuras de datos, y versiono mi trabajo.</p>
+        <ul class="tags"><li>Python</li><li>Árboles y grafos</li><li>Git y GitHub</li><li>VS Code</li></ul>
+      </article>
+    </div>
+  </section>
+
+  <section id="projects" class="wrap">
+    <h2>Proyectos</h2>
+    <div class="grid">
+      <article class="card project">
+        <img src="img/cubri.webp" width="600" height="400" alt="Pantalla de elección de plan del checkout de Cubrí Seguros" loading="lazy">
+        <h3>Cubrí Seguros: contratación de un seguro de celular</h3>
+        <p class="year">2026</p>
+        <p>Flujo de compra de 7 pantallas: cotizar, elegir plan, cargar datos, pagar (simulado) y recibir la póliza.</p>
+        <p><strong>Aprendizaje:</strong> guardar todo el flujo en un único estado evita datos distintos entre pantallas.</p>
+        <ul class="tags"><li>Figma</li><li>Tailwind</li><li>JavaScript</li></ul>
+        <div class="links">
+          <button class="stretch" id="open-case" type="button">Ver caso de estudio</button>
+          <a href="https://ux-ui-tp5.netlify.app" target="_blank" rel="noopener noreferrer">Demo</a>
+          <a href="https://github.com/EnzoWetzel33/UX_UI_TP5" target="_blank" rel="noopener noreferrer">Repositorio</a>
+        </div>
+      </article>
+      <article class="card project">
+        <img src="img/coffee.webp" width="600" height="400" alt="Landing page de la tienda de café" loading="lazy">
+        <h3>Landing page de una tienda de café</h3>
+        <p class="year">2026</p>
+        <p>Maquetación fiel a un diseño de Figma, con carruseles que se frenan en cada tarjeta, sin JavaScript.</p>
+        <p><strong>Aprendizaje:</strong> organizar el CSS en capas hace más fácil mantener estilos y tamaños de pantalla.</p>
+        <ul class="tags"><li>HTML5</li><li>CSS3</li><li>Responsive</li></ul>
+        <div class="links">
+          <a class="stretch" href="https://ux-ui-tp4.netlify.app" target="_blank" rel="noopener noreferrer">Ver demo</a>
+          <a href="https://github.com/EnzoWetzel33/UX_UI_TP4" target="_blank" rel="noopener noreferrer">Repositorio</a>
+        </div>
+      </article>
+      <article class="card project">
+        <img src="img/arbol.webp" width="600" height="400" alt="Código en Python de un árbol binario balanceado" loading="lazy">
+        <h3>Árbol AVL de personajes de Marvel</h3>
+        <p class="year">2026</p>
+        <p>Árbol binario que se balancea solo: inserta, borra, busca y recorre los datos de distintas formas.</p>
+        <p><strong>Aprendizaje:</strong> las rotaciones mantienen el árbol parejo y la búsqueda rápida.</p>
+        <ul class="tags"><li>Python</li><li>Árboles</li><li>Recursión</li></ul>
+        <div class="links">
+          <a class="stretch" href="https://github.com/EnzoWetzel33/Algoritmos_2026" target="_blank" rel="noopener noreferrer">Ver repositorio</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="experience" class="wrap">
+    <h2>Formación</h2>
+    <ol class="timeline">
+      <li>
+        <p class="period">2023 hasta hoy</p>
+        <h3>Licenciatura en Sistemas de Información</h3>
+        <p>UADER, FCyT, sede Concepción del Uruguay</p>
+        <ul><li>Resolví ejercicios de algoritmos y estructuras de datos, hasta árboles y grafos.</li><li>Maqueté 3 trabajos prácticos de Diseño UX-UI con HTML y CSS.</li></ul>
+      </li>
+      <li>
+        <p class="period">Curso breve</p>
+        <h3>Python</h3>
+        <p>Santander Open Academy</p>
+        <ul><li>Aprendí los fundamentos del lenguaje.</li><li>Practiqué con ejercicios guiados.</li></ul>
+      </li>
+      <li>
+        <p class="period">Idiomas</p>
+        <h3>Inglés nivel C1</h3>
+        <p>Formación en idioma</p>
+        <ul><li>Leo documentación técnica en inglés.</li><li>Me comunico con fluidez a nivel avanzado.</li></ul>
+      </li>
+    </ol>
+  </section>
+
+  <section id="about" class="wrap">
+    <h2>Sobre mí</h2>
+    <div class="about">
+      <img src="img/enzo.webp" width="400" height="400" alt="Retrato de Enzo Wetzel" loading="lazy">
+      <div>
+        <p>Soy Enzo, estudiante de Sistemas de Información en Concepción del Uruguay. Me gusta que lo que diseño se entienda a primera vista y que funcione en cualquier pantalla. Estoy buscando mi primera experiencia en diseño de interfaces.</p>
+        <div class="grid">
+          <article class="card"><h3>Orden</h3><p>Planifico antes de empezar y dejo todo documentado.</p></article>
+          <article class="card"><h3>Ganas de aprender</h3><p>Pruebo herramientas nuevas y busco mejorar en cada trabajo.</p></article>
+          <article class="card"><h3>Trabajo en equipo</h3><p>Escucho, pregunto y cuido el buen trato.</p></article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="wrap">
+    <div class="contact">
+      <h2>¿Hablamos?</h2>
+      <p>Escribime si querés sumarme a un equipo o a un proyecto.</p>
+      <div class="actions">
+        <a class="btn btn-accent" href="mailto:enzo77_7@hotmail.com">enzo77_7@hotmail.com</a>
+        <a class="btn btn-outline" href="https://github.com/EnzoWetzel33" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<dialog id="case" aria-labelledby="case-title">
+  <button class="close" id="close-case" type="button">Cerrar</button>
+  <h3 id="case-title">Caso de estudio: Cubrí Seguros</h3>
+  <h4>Problema</h4>
+  <p>Contratar un seguro online suele implicar formularios largos y errores poco claros. Hacía falta un camino corto y sin sorpresas.</p>
+  <h4>Proceso</h4>
+  <p>Diseñé el flujo en Figma para 390 px y 1440 px, y lo dividí en 5 pasos con un indicador de progreso (stepper).</p>
+  <h4>Solución</h4>
+  <p>La cuota se calcula en un solo lugar, cada error tiene su mensaje y "Volver" conserva los datos cargados.</p>
+  <h4>Resultado</h4>
+  <p>Los 3 casos de prueba de cuota dan el valor esperado, el pago rechazado se puede reintentar y no hay errores en la consola.</p>
+</dialog>
+
+<footer class="footer">
+  <div class="wrap foot">
+    <p>© 2026 Enzo Sebastián Wetzel</p>
+    <nav aria-label="Pie de página">
+      <a href="#skills">Skills</a><a href="#projects">Proyectos</a><a href="#experience">Formación</a><a href="#about">Sobre mí</a><a href="#contact">Contacto</a>
+      <a href="https://github.com/EnzoWetzel33" target="_blank" rel="noopener noreferrer">GitHub</a>
+    </nav>
+    <p>Hecho con HTML y CSS. Alojado en GitHub Pages.</p>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
