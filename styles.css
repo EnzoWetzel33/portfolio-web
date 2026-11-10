@@ -127,7 +127,7 @@ background-image:linear-gradient(rgba(255,255,255,.06) 1px,transparent 1px),line
 #metrics{margin-top:calc(-1*var(--s6));position:relative}
 #skills .card{border-top:4px solid var(--primary)}
 .contact{background:var(--ink)}
-/* ajustes: enlaces alineados y botón Contacto del header más suave */
+/* ajustes: enlaces alineados y botón Contacto del header mas suave */
 .links{align-items:center}
 .links a,.links button{display:inline-flex;align-items:center}
 .header .btn-primary{background:transparent;color:#fff;border-color:#fff}
