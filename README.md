@@ -20,6 +20,7 @@ Portfolio personal de una sola página, con navegación por anclas, pensado para
 ```
 portfolio-web/
 ├── index.html
+├── 404.html
 ├── styles.css
 ├── script.js
 ├── img/            imágenes en WebP y og.png
